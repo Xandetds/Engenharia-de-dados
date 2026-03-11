@@ -1,0 +1,1 @@
+> db.apolice.deleteOne({ cod_apolice: 202200013})

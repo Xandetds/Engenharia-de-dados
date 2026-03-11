@@ -1,0 +1,4 @@
+ db.sinistro.updateOne(
+...   { cod_sinistro: 202255501 },
+...   { $set: { condutor: "NANDO" } }
+... )

@@ -1,0 +1,1 @@
+> db.cliente.deleteOne({ cod_cliente: 9 })

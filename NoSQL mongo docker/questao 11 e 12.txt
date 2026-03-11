@@ -1,0 +1,26 @@
+> use seguro
+switched to db seguro
+> show collections
+apolice
+carro
+cliente
+sinistro
+> db.cliente.drop()
+)
+db.apolice.drop()
+db.sinistro.drop()true
+> db.carro.drop()
+true
+> db.apolice.drop()
+true
+> db.sinistro.drop()
+true
+> use seguro
+switched to db seguro
+> db.dropDatabase()
+{ "dropped" : "seguro", "ok" : 1 }
+> show dbs
+admin   0.000GB
+config  0.000GB
+local   0.000GB
+>

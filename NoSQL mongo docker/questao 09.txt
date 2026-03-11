@@ -1,0 +1,8 @@
+> db.carro.find({ $or: [ { marca: "GM" }, { ano: 2020 } ] })
+{ "_id" : ObjectId("69b0ad58537a98f3d13f9469"), "placa" : "CCR8096", "modelo" : "CRETA", "chassi" : "88547875547", "marca" : "HYUNDAI", "ano" : 2020, "cor" : "BRANCO" }
+{ "_id" : ObjectId("69b0ad58537a98f3d13f946b"), "placa" : "EEE1056", "modelo" : "ECO SPORT", "chassi" : "56753453455", "marca" : "FORD", "ano" : 2020, "cor" : "AZUL" }
+{ "_id" : ObjectId("69b0ad58537a98f3d13f946d"), "placa" : "GQY6753", "modelo" : "S10", "chassi" : "72004160549", "marca" : "GM", "ano" : 2015, "cor" : "PRETO" }
+{ "_id" : ObjectId("69b0ad58537a98f3d13f9470"), "placa" : "JNU7898", "modelo" : "2020", "chassi" : "87628347687", "marca" : "FORD", "ano" : 2020, "cor" : "VERDE" }
+{ "_id" : ObjectId("69b0ad58537a98f3d13f9472"), "placa" : "LWJ9156", "modelo" : "ONIX", "chassi" : "40991078801", "marca" : "GM", "ano" : 2015, "cor" : "AZUL" }
+>
+

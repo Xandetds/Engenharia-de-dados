@@ -1,0 +1,66 @@
+[
+   {
+      "cod_sinistro":202255501,
+      "placa":"ALD3834",
+      "data_sinistro":"2022-10-30",
+      "hora_sinistro":"11:00:00",
+      "local_sinistro":"CRICIUMA",
+      "condutor":"ARAUJO                                                                                              "
+   },
+   {
+      "cod_sinistro":202255502,
+      "placa":"GQY6753",
+      "data_sinistro":"2022-11-20",
+      "hora_sinistro":"10:34:00",
+      "local_sinistro":"ICARA",
+      "condutor":"CARDOSO                                                                                             "
+   },
+   {
+      "cod_sinistro":202255503,
+      "placa":"IAC8974",
+      "data_sinistro":"2022-05-24",
+      "hora_sinistro":"22:40:00",
+      "local_sinistro":"TUBARAO",
+      "condutor":"CUNHA                                                                                               "
+   },
+   {
+      "cod_sinistro":202255504,
+      "placa":"LVX7086",
+      "data_sinistro":"2023-01-25",
+      "hora_sinistro":"07:37:00",
+      "local_sinistro":"URUSSANGA",
+      "condutor":"SILVA                                                                                               "
+   },
+   {
+      "cod_sinistro":202255505,
+      "placa":"MZT1826",
+      "data_sinistro":"2024-03-27",
+      "hora_sinistro":"15:40:00",
+      "local_sinistro":"SIDEROPOLIS",
+      "condutor":"LUIZ                                                                                                "
+   },
+   {
+      "cod_sinistro":202255506,
+      "placa":"MZT1826",
+      "data_sinistro":"2023-10-20",
+      "hora_sinistro":"16:00:00",
+      "local_sinistro":"FLORIANOPOLIS",
+      "condutor":"JOAO                                                                                                "
+   },
+   {
+      "cod_sinistro":202255507,
+      "placa":"MZT1826",
+      "data_sinistro":"2022-05-08",
+      "hora_sinistro":"18:00:00",
+      "local_sinistro":"NOVA VENEZA",
+      "condutor":"LUCAS                                                                                               "
+   },
+   {
+      "cod_sinistro":202255508,
+      "placa":"IAC8974",
+      "data_sinistro":"2022-08-08",
+      "hora_sinistro":"21:00:00",
+      "local_sinistro":"CRICIUMA",
+      "condutor":"PEDRO                                                                                               "
+   }
+]

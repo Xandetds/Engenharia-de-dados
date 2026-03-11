@@ -1,0 +1,5 @@
+> db.sinistro.find({placa: 'MZT1826'})
+{ "_id" : ObjectId("69b0ad80537a98f3d13f9484"), "cod_sinistro" : 202255505, "placa" : "MZT1826", "data_sinistro" : "2024-03-27", "hora_sinistro" : "15:40:00", "local_sinistro" : "SIDEROPOLIS", "condutor" : "LUIZ                                                                                                " }
+{ "_id" : ObjectId("69b0ad80537a98f3d13f9485"), "cod_sinistro" : 202255506, "placa" : "MZT1826", "data_sinistro" : "2023-10-20", "hora_sinistro" : "16:00:00", "local_sinistro" : "FLORIANOPOLIS", "condutor" : "JOAO                                                                                                " }
+{ "_id" : ObjectId("69b0ad80537a98f3d13f9486"), "cod_sinistro" : 202255507, "placa" : "MZT1826", "data_sinistro" : "2022-05-08", "hora_sinistro" : "18:00:00", "local_sinistro" : "NOVA VENEZA", "condutor" : "LUCAS                                                                                               " }
+>

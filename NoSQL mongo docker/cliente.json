@@ -1,0 +1,74 @@
+[
+   {
+      "cod_cliente":1,
+      "nome":"MARISA MELO OLIVEIRA",
+      "cpf":"11111111111",
+      "sexo":"F",
+      "endereco":"RUA JOSÃ‰ WOSCH SOBRINHO, 1938",
+      "telefone_fixo":"(41) 5096-4117",
+      "telefone_celular":"(41) 5096-4117"
+   },
+   {
+      "cod_cliente":2,
+      "nome":"MURILO CARVALHO CARDOSO",
+      "cpf":"22222222222",
+      "sexo":"M",
+      "endereco":"RUA GEORGE BERNANOS, 122800",
+      "telefone_fixo":"(21) 3944-5385"
+   },
+   {
+      "cod_cliente":3,
+      "nome":"VINICIUS ROCHA RODRIGUES",
+      "cpf":"33333333333",
+      "sexo":"M"
+   },
+   {
+      "cod_cliente":4,
+      "nome":"CAROLINA ROCHA GOMES",
+      "cpf":"44444444444",
+      "sexo":"F"
+   },
+   {
+      "cod_cliente":5,
+      "nome":"ALINE SANTOS CASTRO",
+      "cpf":"55555555555",
+      "sexo":"F",
+      "endereco":"RUA ARMANDO PACAGNELLA, 1259",
+      "telefone_fixo":"(19) 7287-2893",
+      "telefone_celular":"(19) 7287-2893"
+   },
+   {
+      "cod_cliente":6,
+      "nome":"LEILA CORREIA CAVALCANTI",
+      "cpf":"66666666666",
+      "sexo":"F",
+      "endereco":"RUA FRANCISCO D'ARAGE, 930"
+   },
+   {
+      "cod_cliente":7,
+      "nome":"SOPHIA CORREIA SANTOS",
+      "cpf":"77777777777",
+      "sexo":"F",
+      "endereco":"RUA JOÃƒO FORTES, 372",
+      "telefone_fixo":"(49) 8269-6660",
+      "telefone_celular":"(49) 8269-6660"
+   },
+   {
+      "cod_cliente":8,
+      "nome":"JOÃƒO CORREIA COSTA",
+      "cpf":"88888888888",
+      "sexo":"M",
+      "endereco":"RUA PARAGUÃ, 526",
+      "telefone_fixo":"(51) 7774-2809",
+      "telefone_celular":"(51) 7774-2809"
+   },
+   {
+      "cod_cliente":9,
+      "nome":"RAFAEL DIAS SOUZA",
+      "cpf":"99999999999",
+      "sexo":"M",
+      "endereco":"RUA MARIA MARCHI VISSALI, 74",
+      "telefone_fixo":"(16) 7459-3139",
+      "telefone_celular":"(16) 7459-3139"
+   }
+]

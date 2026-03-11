@@ -1,0 +1,4 @@
+> db.carro.find({marca: 'RENAULT', cor: 'BRANCO'})
+{ "_id" : ObjectId("69b0ad58537a98f3d13f9468"), "placa" : "ALD3834", "modelo" : "CLIO", "chassi" : "34574215969", "marca" : "RENAULT", "ano" : 2011, "cor" : "BRANCO" }
+{ "_id" : ObjectId("69b0ad58537a98f3d13f9476"), "placa" : "NFT2212", "modelo" : "KWID", "chassi" : "12344343433", "marca" : "RENAULT", "ano" : 2023, "cor" : "BRANCO" }
+>

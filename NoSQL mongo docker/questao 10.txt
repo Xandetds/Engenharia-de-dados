@@ -1,0 +1,32 @@
+root@L-1-10-43-22:~# docker ps -a
+CONTAINER ID   IMAGE                       COMMAND                  CREATED             STATUS                   PORTS                                             NAMES
+c7ce7d110e52   jlsilva01/mongodb           "docker-entrypoint.s…"   About an hour ago   Up About an hour         0.0.0.0:27017->27017/tcp, [::]:27017->27017/tcp   mongodb
+f71926b18c2a   jlsilva01/satc-sql-server   "/opt/mssql/bin/perm…"   About an hour ago   Up About an hour         0.0.0.0:1433->1433/tcp, [::]:1433->1433/tcp       satc-sql-server
+801fd3c038ae   mysql                       "docker-entrypoint.s…"   2 weeks ago         Exited (0) 2 weeks ago                                                     mysql
+root@L-1-10-43-22:~# docker cp c7ce7d110e52:/cliente.json
+docker: 'docker cp' requires 2 arguments
+
+Usage:  docker cp [OPTIONS] CONTAINER:SRC_PATH DEST_PATH|-
+        docker cp [OPTIONS] SRC_PATH|- CONTAINER:DEST_PATH
+
+Run 'docker cp --help' for more information
+root@L-1-10-43-22:~# docker cp c7ce7d110e52:/cliente.json .
+Successfully copied 3.58kB to /root/.
+root@L-1-10-43-22:~# docker cp c7ce7d110e52:/sinistro.json .
+Successfully copied 4.1kB to /root/.
+root@L-1-10-43-22:~# docker cp c7ce7d110e52:/carrio.json .
+Error response from daemon: Could not find the file /carrio.json in container c7ce7d110e52
+root@L-1-10-43-22:~# docker cp c7ce7d110e52:/carro.json .
+Successfully copied 4.1kB to /root/.
+root@L-1-10-43-22:~# docker cp c7ce7d110e52:/apolice.json .
+Successfully copied 5.12kB to /root/.
+root@L-1-10-43-22:~# mkdir ~/backup_mongo
+root@L-1-10-43-22:~# docker cp c7ce7d110e52:/cliente.json ~/backup_mongo/
+docker cp c7ce7d110e52:/carro.json ~/backup_mongo/
+docker cp c7ce7d110e52:/apolice.json ~/backup_mongo/
+docker cp c7ce7d110e52:/sinistro.json ~/backup_mongo/
+Successfully copied 3.58kB to /root/backup_mongo/
+Successfully copied 4.1kB to /root/backup_mongo/
+Successfully copied 5.12kB to /root/backup_mongo/
+Successfully copied 4.1kB to /root/backup_mongo/
+root@L-1-10-43-22:~# mongo
