@@ -1,0 +1,41 @@
+root@L-1-10-43-22:~# docker exec -i c7ce7d110e52 mongoimport --db seguro2 --collection cliente --file /cliente.json
+docker exec -i c7ce7d110e52 mongoimport --db seguro2 --collection carro --file /carro.json
+docker exec -i c7ce7d110e52 mongoimport --db seguro2 --collection apolice --file /apolice.json
+docker exec -i c7ce7d110e52 mongoimport --db seguro2 --collection sinistro --file /sinistro.json
+2026-03-11T00:18:35.372+0000    connected to: mongodb://localhost/
+2026-03-11T00:18:35.405+0000    8 document(s) imported successfully. 0 document(s) failed to import.
+2026-03-11T00:18:35.518+0000    connected to: mongodb://localhost/
+2026-03-11T00:18:35.534+0000    15 document(s) imported successfully. 0 document(s) failed to import.
+2026-03-11T00:18:35.638+0000    connected to: mongodb://localhost/
+2026-03-11T00:18:35.654+0000    15 document(s) imported successfully. 0 document(s) failed to import.
+2026-03-11T00:18:35.774+0000    connected to: mongodb://localhost/
+2026-03-11T00:18:35.788+0000    8 document(s) imported successfully. 0 document(s) failed to import.
+root@L-1-10-43-22:~# mongoexport --db seguro --collection cliente --out cliente.json --jsonArray
+mongoexport: command not found
+root@L-1-10-43-22:~# docker exec -it c7ce7d110e52 mongo
+use seguro2
+db.cliente.find().pretty()
+db.carro.find().pretty()
+MongoDB shell version v4.4.29
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("559bdd01-0faa-4f83-b7f7-ccfb0ec71b17") }
+MongoDB server version: 4.4.29
+---
+The server generated these startup warnings when booting:
+        2026-03-10T23:02:01.419+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+        2026-03-10T23:02:01.744+00:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+        2026-03-10T23:02:01.744+00:00: Soft rlimits too low
+        2026-03-10T23:02:01.744+00:00:         currentValue: 1024
+        2026-03-10T23:02:01.744+00:00:         recommendedMinimum: 64000
+---
+> use seguro
+switched to db seguro
+> show collections
+> use seguro2
+switched to db seguro2
+> show collections
+apolice
+carro
+cliente
+sinistro
+>
